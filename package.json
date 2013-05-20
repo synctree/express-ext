@@ -29,7 +29,7 @@
     "api"
   ],
   "repository": "git://github.com/synctree/express-ext",
-  "main": "index",
+  "main": "./lib/express-ext",
   "scripts": {
     "prepublish": "npm prune"
   },
