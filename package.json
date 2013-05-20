@@ -1,0 +1,47 @@
+{
+  "name": "express-ext",
+  "description": "Useful extensions for Express",
+  "version": "0.1.0",
+  "author": "Masahji C. Stewart <masahji@synctree.com>",
+  "contributors": [
+    {
+      "name": "Masahji C. Stewart",
+      "email": "masahji@synctree.com"
+    }
+  ],
+  "dependencies": {
+    "express": "3.*.*",
+    "underscore": "latest",
+    "debug": "*"
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "express",
+    "extensions",
+    "ext",
+    "framework",
+    "sinatra",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api"
+  ],
+  "repository": "git://github.com/synctree/express-ext",
+  "main": "index",
+  "scripts": {
+    "prepublish": "npm prune"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+   }
+  ],
+  "engines": {
+    "node": "*"
+  }
+}
+
